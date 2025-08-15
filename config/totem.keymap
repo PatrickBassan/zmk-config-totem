@@ -37,10 +37,10 @@
 
         nav_func {
             bindings = <
-       &kp F1           &kp F2           &kp F3        &kp F4             &kp LC(X)    &none  &kp HOME        &kp UP_ARROW    &kp END          &none
-       &mt LEFT_GUI F5  &mt LEFT_ALT F6  &mt LCTRL F7  &mt LEFT_SHIFT F8  &kp LC(C)    &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
-&none  &kp F9           &kp F10          &kp F11       &kp F12            &kp LC(V)    &none  &kp INS         &none           &kp DEL          &none  &none
-                                         &trans        &trans             &trans       &none  &none           &none
+       &kp F1           &kp F2           &kp F3        &kp F4             &kp LC(X)    &kp PAGE_UP    &kp HOME        &kp UP_ARROW    &kp END          &none
+       &mt LEFT_GUI F5  &mt LEFT_ALT F6  &mt LCTRL F7  &mt LEFT_SHIFT F8  &kp LC(C)    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none
+&none  &kp F9           &kp F10          &kp F11       &kp F12            &kp LC(V)    &none          &kp INS         &none           &kp DEL          &none  &none
+                                         &trans        &trans             &trans       &none          &none           &none
             >;
         };
 
