@@ -32,7 +32,7 @@
                      &kp Q           &kp W           &kp E        &kp R             &kp T          &kp Y            &kp U              &kp I        &kp O            &kp P
                      &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LCTRL D  &mt LEFT_SHIFT F  &kp G          &kp H            &mt RIGHT_SHIFT J  &mt RCTRL K  &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI
 &mt CAPSLOCK ESCAPE  &kp Z           &kp X           &kp C        &kp V             &kp B          &kp N            &kp M              &kp COMMA    &kp DOT          &kp FSLH            &kp ENTER
-                                                     &kp TAB      &mo 3             &lt 2 SPACE    &lt 2 BACKSPACE  &mo 3              &none
+                                                     &kp TAB      &mo 4             &lt 3 SPACE    &lt 3 BACKSPACE  &mo 4              &none
             >;
         };
 
@@ -42,6 +42,15 @@
          &kp LSHFT  &kp A  &kp S     &kp D   &kp F        &trans  &trans  &trans  &trans  &trans
 &kp ESC  &kp LCTRL  &kp Z  &kp X     &kp C   &kp V        &trans  &trans  &trans  &trans  &trans  &trans
                            &kp LALT  &trans  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
+
+        aurora {
+            bindings = <
+         &kp H  &kp G  &kp V  &kp I    &kp K        &kp T     &kp L  &mt RA(COMMA) C  &kp Q   &trans
+         &kp U  &kp O  &kp E  &kp A    &kp F        &kp S     &kp R  &kp N            &kp D   &kp P
+&kp ESC  &kp Z  &kp X  &kp B  &kp J    &kp W        &kp Y     &kp M  &trans           &trans  &trans  &trans
+                       &to 0  &kp TAB  &kp SPACE    &kp BSPC  &none  &trans
             >;
         };
 
@@ -63,16 +72,7 @@
             >;
         };
 
-        device {
-            bindings = <
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-       &none  &none  &none  &none  &none    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-                     &none  &none  &none    &none  &none  &none
-            >;
-        };
-
-        layer_5 {
+        layer_6 {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
@@ -81,7 +81,7 @@
             >;
         };
 
-        layer_6 {
+        layer_7 {
             bindings = <
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
